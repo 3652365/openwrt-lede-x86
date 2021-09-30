@@ -21,5 +21,5 @@ git clone https://github.com/netdata/netdata.git package/tt/netdata
 # git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/tt/luci-app-adguardhome
 # git clone https://github.com/AdguardTeam/AdGuardHome.git package/tt/AdGuardHome
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/tt/luci-app-unblockneteasemusic
-
+git clone https://github.com/small-5/luci-app-adblock-plus.git package/tt/luci-app-adblock-plus
 
