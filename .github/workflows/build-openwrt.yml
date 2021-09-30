@@ -81,12 +81,6 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
-        
-    - name: Update feeds
-      run: cd openwrt && ./scripts/feeds update -a
-
-    - name: Install openwrt-smartdns and luci-app-smartdns
-      run: cd openwrt && ./scripts/feeds install -f openwrt-smartdns && ./scripts/feeds install -f luci-app-smartdns
       
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
